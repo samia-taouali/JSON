@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="movies.css">
+    <title>Document</title>
+
+</head>
+<body>
+     <!-- navbar -->
+
+     <nav class="navbar bg-body-tertiary sticky-top">
+      <div class="container-fluid justify-content-between">
+        <a class="navbar-brand" id="gt" href="#">MOVIES</a>
+        <div class="d-flex">
+          <form class="" role="search">
+            <input class="form-control me-2" type="search" placeholder="Search" id="search" aria-label="Search">
+          </form>
+          <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        </div>
+        
+        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Offcanvas</h5>
+            
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Dropdown
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li>
+                    <hr class="dropdown-divider">
+                  </li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+            </ul>
+            <form class="d-flex mt-3" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+            
+          </div>
+        </div>
+      </div>
+    </nav>
+
+
+
+  <!-- <nav class="navbar bg-body-tertiary sticky-top d-flex">
+    <a class="navbar-brand" href="#">movie</a>
+    <form class="d-flex" role="search">
+      <input class="form-control me-2" type="search" placeholder="Search" id="search" aria-label="Search">
+    </form>
+    <div class="container-fluid float-end">
+      <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+        <div class="offcanvas-header">
+          <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Offcanvas</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+          <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Top movie</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Genres
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Drama</a></li>
+                <li><a class="dropdown-item" href="#">Comedy</a></li>
+              </ul>
+            </li>
+          </ul>
+        
+        </div>
+      </div>
+    </div>
+  </nav> -->
+        <!-- select -->
+  <select class="form-select form-select-lg mt-4 bg-dark text-light" aria-label=".form-select-lg example" id="floatingSelect">
+    <option selected>Open this select menu</option>
+    <option value="title">Title A-Z</option>
+    <option value="date">Release Date A-Z</option>
+    <option value="lasts">Duration A-Z</option>
+    <option value="Titre">Title Z-A</option>
+    <option value="L'anné">Release Date Z-A</option>
+    <option value="durée">Duration Z-A</option>
+  </select>
+
+          <!-- TABLE -->
+          <table class="table caption-top table-bordered  table-dark ">
+            <caption> top movies</caption>
+            <thead>
+              <tr>
+                <th scope="col">Poster</th>
+                <th scope="col">Title</th>
+                <th scope="col">Release Date</th>
+                <th scope="col">Director</th>
+                <th scope="col">Lasts</th>
+                <th scope="col">Festival</th>
+                <th scope="col">Actor</th>
+              </tr>
+            </thead>
+            <tbody id="tbody">
+
+            </tbody>
+            
+          </table>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    <script src="movies.js"></script> 
+</body>
+</html>

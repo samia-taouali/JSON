@@ -1,0 +1,35 @@
+ @import url('https://fonts.googleapis.com/css2?family=Henny+Penny&display=swap');
+
+.navbar{
+    background-color: rgb(42,9,26) !important;
+}
+td{
+    color: rgb(245, 245, 240);
+}
+tr{
+    background-color: rgb(247, 241, 241);
+}
+th{
+    color: rgb(245, 245, 249);
+}
+li{
+    list-style-type: none;
+    text-decoration: none;
+}
+li p{
+    color: rgb(244, 249, 249);
+
+}
+/* caption{
+    text-align: center;
+} */
+table{
+    border: none;
+}
+
+.navbar-brand{
+    justify-content: center;
+}
+#gt{
+    color: #fff;
+}

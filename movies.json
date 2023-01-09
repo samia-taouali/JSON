@@ -1,0 +1,297 @@
+[
+    {
+        "poster":"images/renoir.webp",
+        "title":"Renoir ",
+        "RDate": 2012 ,
+        "director" : "Gilles Bourdos" ,
+        "lasts":"1h 51m",
+        "festival":[
+        "Festival de Cannes 2012",
+        " DFestival international du film de Palm Springs 2014",
+        "Prix Lumières 2014 ",
+        "Césars 2014"
+        
+        ],
+        "actor":[
+            {
+
+                "FName":" Michel Bouquet" ,
+                "nationality":"(français)"
+            }, 
+            {
+
+                "FName":"Christa Therett" ,
+                "nationality":"(française)"
+            },
+            {
+
+                "FName":"Vincent Rottiers" ,
+                "nationality":"(français)"
+            },
+            {
+                "FName":"Thomas Doret" ,
+                "nationality":"(belge)"
+            },
+            {
+                "FName":"Laurent Poitrenaux " ,
+                "nationality":"(français)"
+            }
+           
+            
+        ]
+    },
+    {
+        "poster":"images/midnight in paris.jpg",
+        "title":"Midnight in paris",
+        "RDate":2011 ,
+        "director" : " Woody Allen",
+        "lasts":"1h 40m",
+        "festival":[
+        " festival de Cannes"
+        ],
+        "actor":[
+            {
+
+                "FName":"Owen Wilson" ,
+                "nationality":"(américain)"
+            }, 
+            {
+
+                "FName":" Rachel McAdams" ,
+                "nationality":"(canadienne)"
+            },
+            {
+
+                "FName":" Marion Cotillard" ,
+                "nationality":"(française)"
+            }
+        ]
+    }, 
+    {
+        "poster":"images/little women score.png",
+        "title":"little women",
+        "RDate":2009 ,
+        "director" : "Greta Gerwig",
+        "lasts":"2h 15m",
+        "festival":[
+           "Cairo International Film Festival",
+           " Dockanema"
+        ],
+        "actor":[
+            {
+
+                "FName":"Saoirse Ronan" ,
+                "nationality":"(Etats-Unis)"
+            }, 
+            {
+
+                "FName": "AFlorence Pugh" ,
+                "nationality":"(britannique)"
+            },
+            {
+
+                "FName":" FTimothée Chalamet" ,
+                "nationality":"(Etats-Unis)"
+            }
+        ]
+    }, 
+    {
+        "poster":"images/atonement.jpg",
+        "title":"Atonement",
+        "RDate":2007 ,
+        "director" : "Joe Wright",
+        "lasts":"2h 3m",
+        "festival":[
+           "festival de Malmö",
+           " festival de Venise",
+           "festival de Vancouver",
+           "festival du film britannique de Dinard"
+        ],
+        "actor":[
+            {
+
+                "FName":"James McAvoy" ,
+                "nationality":"(britannique)"
+            }, 
+            {
+
+                "FName":"Keira Knightley" ,
+                "nationality":"(britannique)"
+            },
+            {
+
+                "FName":" Saoirse Ronan" ,
+                "nationality":"(américain)"
+            }
+        ]
+    }, 
+  
+    {
+        "poster":"images/howel.jpg",
+        "title":"Howl's Moving Castle",
+        "RDate":2004 ,
+        "director" : " Hayao Miyazaki",
+        "lasts":"2h 00m",
+        "festival":[
+           "Mostra de Venise"
+           
+        ],
+        "actor":[
+            {
+
+                "FName":"Chieko Baishō" ,
+                "nationality":"(japonais)"
+            }, 
+            {
+
+                "FName":" Takuya Kimura " ,
+                "nationality":"(japonais)"
+            },
+            {
+
+                "FName":" Akihiro Miwa" ,
+                "nationality":"(japonais)"
+            }
+        ]
+    },
+    {
+        "poster":"images/enola.jpg",
+        "title":"Enola holmes ",
+        "RDate":2020,
+        "director" : "Harry Bradbeer",
+        "lasts":"2h 3m",
+        "festival":[
+        "Cairo International Film Festival",
+        " Dockanema"
+            ],
+            "actor":[
+                {
+    
+                    "FName":" Millie Bobby Brown" ,
+                    "nationality":"(britannique)"
+                }, 
+                {
+    
+                    "FName":" Henry Cavill" ,
+                    "nationality":"(britannique)"
+                },
+                {
+    
+                    "FName":" Sam Claflin" ,
+                    "nationality":"(britannique)"
+                }
+            ]  
+    },
+    {
+        "poster":"images/kikis.webp",
+        "title":"kiki's delivery service",
+        "RDate":1989 ,
+        "director" : "Hayao Miyazaki",
+        "lasts":"1h 43m",
+        "festival":[
+           " Seattle International Film Festival",
+           " Dockanema"
+        ],
+        "actor":[
+            {
+
+                "FName":"Minami Takayama" ,
+                "nationality":"(japonaise)"
+            }, 
+            {
+
+                "FName":" Rei Sakuma " ,
+                "nationality":"(japonaise)"
+            },
+            {
+
+                "FName":" Kappei Yamaguchi" ,
+                "nationality":"(japonais)"
+            }
+        ]
+    },
+    {
+        "poster":"images/winter's tale.jpg",
+        "title":"Winter's tale",
+        "RDate" : 2014,
+        "director" : "Akiva Goldsman",
+        "lasts":"2h 9m",
+        "festival":[
+           "Cairo International Film Festival",
+           " Dockanema"
+        ],
+        "actor":[
+            {
+
+                "FName":" Colin Farrell" ,
+                "nationality":"(irlandais)"
+            }, 
+            {
+
+                "FName":" Jessica Brown Findlay" ,
+                "nationality":"(britannique)"
+            },
+            {
+
+                "FName":" Russell Crowe" ,
+                "nationality":"(Néo-zélandais)"
+            }
+        ]
+    },
+    {
+        "poster":"images/marnie.jpg",
+        "title":"When Marnie Was There",
+        "RDate":2014 ,
+        "director" : " Yoshiaki Nishimura",
+        "lasts":"1h 43m",
+        "festival":[
+           "88e cérémonie des Oscars",
+           " Dockanema"
+        ],
+        "actor":[
+            {
+
+                "FName":" Sara Takatsuki" ,
+                "nationality":"(japonaise)"
+            }, 
+            {
+
+                "FName":" Kasumi Arimura" ,
+                "nationality":"(japonaise)"
+            },
+            {
+
+                "FName":" Hana Sugisaki" ,
+                "nationality":"(japonaise)"
+            }
+        ]
+    },
+    {
+        "poster":"images/arriety.jpg",
+        "title":"Arrietty",
+        "RDate":2010 ,
+        "director" : "Hiromasa Yonebayashi",
+        "lasts":"1h 34m",
+        "festival":[
+           "Cairo International Film Festival",
+           " Dockanema"
+        ],
+    "actor":[
+            {
+
+                "FName":" Mirai Shida " ,
+                "nationality":"(japonaise)"
+            }, 
+            {
+
+                "FName":" Ryunosuke Kamiki" ,
+                "nationality":"(japonais)"
+            },
+            {
+
+                "FName":" Tomokazu Miura" ,
+                "nationality":"(japonais)"
+            }
+        ]
+    }
+]
